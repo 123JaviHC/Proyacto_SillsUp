@@ -81,6 +81,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BO\" />
+    <Folder Include="DAO\" />
+    <Folder Include="GUI\" />
+    <Folder Include="Recursos\css\" />
+    <Folder Include="Recursos\img\" />
+    <Folder Include="Recursos\js\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
