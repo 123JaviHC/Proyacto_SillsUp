@@ -1,0 +1,14 @@
+﻿.color_fondo_barra_arriba {
+    /*background-color: #71b74a;*/ /*verde del logo de la escuela*/
+    background-color: #009b80; /*verde del logo de UTM*/
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.letra-blanca{
+    color:#ffffff;
+}
+
+.decoracio-de-links {
+    text-decoration:none;    
+}

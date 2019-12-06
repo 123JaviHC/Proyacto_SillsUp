@@ -67,13 +67,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GUI\Inicio.aspx" />
+    <Content Include="Recursos\css\bootstrap-grid.css" />
+    <Content Include="Recursos\css\bootstrap-grid.min.css" />
+    <Content Include="Recursos\css\bootstrap-reboot.css" />
+    <Content Include="Recursos\css\bootstrap-reboot.min.css" />
+    <Content Include="Recursos\css\bootstrap.css" />
+    <Content Include="Recursos\css\bootstrap.min.css" />
+    <Content Include="Recursos\css\estilos_personalizados.css" />
+    <Content Include="Recursos\img\carousel_img1.png" />
+    <Content Include="Recursos\js\bootstrap.bundle.js" />
+    <Content Include="Recursos\js\bootstrap.bundle.min.js" />
+    <Content Include="Recursos\js\bootstrap.js" />
+    <Content Include="Recursos\js\bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\Vista_Principal.Master.cs">
+      <DependentUpon>Vista_Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaMaestra\Vista_Principal.Master.designer.cs">
+      <DependentUpon>Vista_Principal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="PaginaMaestra\Vista_Principal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,10 +112,6 @@
   <ItemGroup>
     <Folder Include="BO\" />
     <Folder Include="DAO\" />
-    <Folder Include="GUI\" />
-    <Folder Include="Recursos\css\" />
-    <Folder Include="Recursos\img\" />
-    <Folder Include="Recursos\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
