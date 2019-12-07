@@ -12,3 +12,30 @@
 .decoracio-de-links {
     text-decoration:none;    
 }
+
+.letra-tm-24{
+    font-size:24px;
+}
+
+.letra-tm-32 {
+    font-size: 32px;
+}
+
+.tm-imagenes{
+    width:550px;
+    height:550px;
+}
+
+.color-footer {
+    background: #707070;
+}
+
+.tm-footer{
+    padding-top:40px;
+    padding-bottom:10px;    
+}
+
+.tm-img-footer{
+    width:300px;
+    height:300px;
+}

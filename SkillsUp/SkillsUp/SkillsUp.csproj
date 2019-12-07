@@ -76,6 +76,11 @@
     <Content Include="Recursos\css\bootstrap.min.css" />
     <Content Include="Recursos\css\estilos_personalizados.css" />
     <Content Include="Recursos\img\carousel_img1.png" />
+    <Content Include="Recursos\img\imgUTM.png" />
+    <Content Include="Recursos\img\img_bolsa_estadias.jpg" />
+    <Content Include="Recursos\img\logo.png" />
+    <Content Include="Recursos\img\trabajo.jpg" />
+    <Content Include="Recursos\img\utm.png" />
     <Content Include="Recursos\js\bootstrap.bundle.js" />
     <Content Include="Recursos\js\bootstrap.bundle.min.js" />
     <Content Include="Recursos\js\bootstrap.js" />

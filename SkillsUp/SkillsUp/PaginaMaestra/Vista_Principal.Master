@@ -23,12 +23,12 @@
                         <%-- espacio vacio --%>
                     </div>
                     <div class=" col-md-6">
-                        <a href="#" class="letra-blanca decoracio-de-links">Inicio</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#" class="letra-blanca">Bolsa de trabajo</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#" class="letra-blanca">Bolsa de estadias</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#" class="letra-blanca">Nosotros</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#inicio" class="letra-blanca decoracio-de-links">Inicio</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#trabajo" class="letra-blanca">Bolsa de trabajo</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#estadias" class="letra-blanca">Bolsa de estadias</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#nosotros" class="letra-blanca">Nosotros</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         <a href="#" class="letra-blanca">Iniciar sesión</a>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </header>
@@ -37,6 +37,47 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </section>
+
+        <footer class="color-footer tm-footer feature_part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1">
+                        <%--solo es un espacio--%>
+                    </div>
+
+                    <div class="col-md-5">
+                        <img src="../Recursos/img/logo.png" class="tm-img-footer" />
+                    </div>
+
+                    <div class="col-md-5">
+                        <img src="../Recursos/img/utm.png" class="tm-img-footer" />
+                    </div>
+
+                    <div class="col-md-1">
+                        <%--solo es un espacio--%>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <%--solo es un espacio--%>
+                    </div>
+
+                    <div class="col-md-8">
+                        <p>Josué Figueroa</p>
+                        <p>Rodrigo Hu</p>
+                        <p>Javier Herrera</p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <%--solo es un espacio--%>
+                    </div>
+                </div>
+
+                <center><p class="letra-blanca">SkillsUp</p></center>
+            </div>
+        </footer>
     </form>
 </body>
 </html>
