@@ -75,6 +75,8 @@
     <Content Include="Recursos\css\bootstrap.css" />
     <Content Include="Recursos\css\bootstrap.min.css" />
     <Content Include="Recursos\css\estilos_personalizados.css" />
+    <Content Include="Recursos\css\ihover.css" />
+    <Content Include="Recursos\css\ihover.min.css" />
     <Content Include="Recursos\img\carousel_img1.png" />
     <Content Include="Recursos\img\imgUTM.png" />
     <Content Include="Recursos\img\img_bolsa_estadias.jpg" />

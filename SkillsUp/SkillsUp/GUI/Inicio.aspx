@@ -43,26 +43,32 @@
     <br />
 
     <%--INICIO PART DE BOLSA DE TRABAJO--%>
-    <a name="trabajo">
+    <a name="trabajoyestadias">
         <section class="feature_part">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-1">
-                        <%--solo hace espacio a un lado--%>
+                    <%--<div class="col-md-1">
+                        solo hace espacio a un lado
+                    </div>--%>
+                    <div class="col-md-3">
+                        
+                        <div class="ih-item square colored effect6 from_left_and_right">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="../Recursos/img/trabajo.jpg" alt="img">
+                                </div>
+                                <div class="info">
+                                    <h3>Bolsa de trabajo</h3>
+                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas</h6>
+                                </div>
+                            </a>
+                        </div>
+                        
                     </div>
-                    <div class="col-md-5">
-                        <img src="../Recursos/img/trabajo.jpg" class="tm-imagenes" />
-                    </div>
-                    <div class="col-md-5">
-                        <p class="letra-tm-32">
-                            Bolsa de trabajo UTM<p />
-                        <p class="letra-tm-24">
-                            Disfruta de nuestras ofertas de trabajo disponibles en la página selecciona la empresa que mas te parezca pide informes y más. "sjakjaskjxajxajxa  sajxkajxaxj a sj xla xias xoia xiaos xiax asx aso xa xoas xoiaj xias jxoia jxoias xioas xoiaj xoa xoa xoia xoia xoa xioa xoia xioa xiia xi"
-                        </p>                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<asp:Button ID="Button1" runat="server" Text="ver trabajos disponibles" CssClass="btn btn-primary btn-lg" />
-                    </div>
-                    <div class="col-md-1">
-                        <%--solo hace espacio a un lado--%>
-                    </div>
+
+                    <%--<div class="col-md-1">
+                        solo hace espacio a un lado
+                    </div>--%>
                 </div>
             </div>
         </section>
@@ -82,17 +88,7 @@
                     <div class="col-md-1">
                         <%--solo hace espacio a un lado--%>
                     </div>
-                    <div class="col-md-5">
-                        <p class="letra-tm-32">Bolsa de estadías UTM </p>
-                        <br />
-                        <p class="letra-tm-24">
-                            Disfruta de nuestras ofertas que las empresas traen para ti, buscando vacantes "sjakjaskjxajxajxa  sajxkajxaxj a sj xla xias xoia xiaos xiax asxaso xa xoas xoiaj xias jxoia jxoias xioas xoiaj xoa xoa xoia xoia xoa xioa xoia xioa xiia xi"                 
-                        </p>
-                        <asp:Button ID="Button2" runat="server" Text="ver trabajos disponibles" CssClass="btn btn-primary btn-lg" />
-                    </div>
-                    <div class="col-md-5">
-                        <img src="../Recursos/img/img_bolsa_estadias.jpg" class="tm-imagenes" />
-                    </div>
+                    
                     <div class="col-md-1">
                         <%--solo hace espacio a un lado--%>
                     </div>
@@ -101,4 +97,39 @@
         </section>
     </a>
     <%--FIN DE PARTE DE BOLSA ESTADIAS--%>
+
+
+    <%--ihover inicio--%>
+    <a name="estadias">
+        <section class="feature_part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-5">
+                        <!-- colored -->
+                        <div class="ih-item square colored effect6 from_left_and_right">
+                            <a href="#">
+                                <div class="img">
+                                    <img src="../Recursos/img/img_bolsa_estadias.jpg" alt="img">
+                                </div>
+                                <div class="info">
+                                    <h3>Heading here</h3>
+                                    <p>Description goes here</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end colored -->
+                    </div>
+                    
+                    <div class="col-md-1">
+
+                    </div>
+                    <!-- end From left and right-->
+                </div>
+            </div>
+        </section>
+    </a>
+    <%--ihover fin--%>
 </asp:Content>
