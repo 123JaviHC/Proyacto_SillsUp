@@ -43,14 +43,13 @@
     <br />
 
     <%--INICIO PART DE BOLSA DE TRABAJO--%>
-    <a name="trabajoyestadias">
+    <center><a name="trabajoyestadias">
+        <h1>Trabajos y estadías</h1><br />
         <section class="feature_part">
             <div class="container">
                 <div class="row">
-                    <%--<div class="col-md-1">
-                        solo hace espacio a un lado
-                    </div>--%>
-                    <div class="col-md-3">
+                    
+                    <div class="col-md-6">
                         
                         <div class="ih-item square colored effect6 from_left_and_right">
                             <a href="#">
@@ -65,71 +64,33 @@
                         </div>
                         
                     </div>
-
-                    <%--<div class="col-md-1">
-                        solo hace espacio a un lado
-                    </div>--%>
-                </div>
-            </div>
-        </section>
-    </a>
-    <%--FIN DE PARTE BOLSA DE TRABAJO--%>
-
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <%--INICIO DE PARTE DE BOLSA DE ESTADIAS--%>
-    <a name="estadias">
-        <section class="feature_part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1">
-                        <%--solo hace espacio a un lado--%>
-                    </div>
                     
-                    <div class="col-md-1">
-                        <%--solo hace espacio a un lado--%>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </a>
-    <%--FIN DE PARTE DE BOLSA ESTADIAS--%>
-
-
-    <%--ihover inicio--%>
-    <a name="estadias">
-        <section class="feature_part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-1">
-
-                    </div>
-                    <div class="col-md-5">
-                        <!-- colored -->
+                    
+                    <div class="col-md-6">
+                        
                         <div class="ih-item square colored effect6 from_left_and_right">
                             <a href="#">
                                 <div class="img">
                                     <img src="../Recursos/img/img_bolsa_estadias.jpg" alt="img">
                                 </div>
                                 <div class="info">
-                                    <h3>Heading here</h3>
-                                    <p>Description goes here</p>
+                                    <h3>Bolsa de estadías</h3>
+                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas ccon vacantes disponibles para ti</h6>
                                 </div>
                             </a>
                         </div>
-                        <!-- end colored -->
+                        
                     </div>
-                    
-                    <div class="col-md-1">
-
-                    </div>
-                    <!-- end From left and right-->
                 </div>
             </div>
         </section>
     </a>
-    <%--ihover fin--%>
+        </center>
+    <%--FIN DE PARTE BOLSA DE TRABAJO--%>
+
+    <br />
+    <br />
+    <br />
+    <br />
+          
 </asp:Content>
