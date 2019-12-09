@@ -52,13 +52,13 @@
                     <div class="col-md-6">
                         
                         <div class="ih-item square colored effect6 from_left_and_right">
-                            <a href="#">
+                            <a href="#"><%--aqui va el link al asp de trabajos--%>
                                 <div class="img">
                                     <img src="../Recursos/img/trabajo.jpg" alt="img">
                                 </div>
                                 <div class="info">
                                     <h3>Bolsa de trabajo</h3>
-                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas</h6>
+                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas<br />Clik aquí y comienza</h6>
                                 </div>
                             </a>
                         </div>
@@ -69,13 +69,13 @@
                     <div class="col-md-6">
                         
                         <div class="ih-item square colored effect6 from_left_and_right">
-                            <a href="#">
+                            <a href="#"><%--aqui va el link al asp de estadias--%>
                                 <div class="img">
                                     <img src="../Recursos/img/img_bolsa_estadias.jpg" alt="img">
                                 </div>
                                 <div class="info">
                                     <h3>Bolsa de estadías</h3>
-                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas ccon vacantes disponibles para ti</h6>
+                                    <h6 style="color:#fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Encuentra las ofertas de empresas con vacantes disponibles para ti. <br />Clik aquí y comienza</h6>
                                 </div>
                             </a>
                         </div>
