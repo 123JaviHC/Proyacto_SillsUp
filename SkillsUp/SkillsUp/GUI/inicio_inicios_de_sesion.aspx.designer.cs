@@ -105,40 +105,40 @@ namespace SkillsUp.GUI
         protected global::System.Web.UI.WebControls.Button btn_inicia_aumno;
 
         /// <summary>
-        /// Control Label1.
+        /// Control lbl_correo_administrador.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lbl_correo_administrador;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control txt_correo_adminstrador.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txt_correo_adminstrador;
 
         /// <summary>
-        /// Control Label2.
+        /// Control lbl_contraseña.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lbl_contraseña;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control txt_contraseña_administrador.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txt_contraseña_administrador;
 
         /// <summary>
         /// Control Button1.

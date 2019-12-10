@@ -10,10 +10,11 @@
 
     <!--comienza el div para la fila-->
     <div class="row">
+        <div class="colmd-1"></div>
         <!--comienza el div para las columnas la primera-->
-        <div class="col-md-4 mx-auto">
+        <div class="col-md-4   ">
             <!--primer div de sesion-->
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
   <img src="../Recursos/img/empresa.jpg" class="card-img-top" alt="..." style="width:286px; height:286px;">
   <div class="card-body">
       <!--correo de la empresa-->
@@ -33,9 +34,9 @@
 
 
            <!--comienza el div para las columnas la segunda-->
-        <div class="col-md-4 mx-auto" >
+        <div class="col-md-4 " >
             <!--segundo  div de sesion-->
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
   <img src="../Recursos/img/estuduante.jpg" class="card-img-top" alt="..."  style="width:286px; height:286px;"/>
   <div class="card-body">
           <!--correo de la alumno-->
@@ -57,17 +58,17 @@
 
 
              <!--comienza el div para las columnas la tercera-->
-        <div class="col-md-4 mx-auto" >
+        <div class="col-md-4 " >
             <!--tercer div de sesion-->
-            <div class="card" style="width: 18rem;">
-  <img src="../Recursos/img/estuduante.jpg" class="card-img-top" alt="..."  style="width:286px; height:286px;"/>
+            <div class="card mx-auto" style="width: 18rem;">
+  <img src="../Recursos/img/administrador.jpg" class="card-img-top" alt="..."  style="width:286px; height:286px;"/>
   <div class="card-body">
           <!--correo del administrador-->
-      <asp:Label ID="Label1" runat="server" Text="CORREO DEL ALUMNO"></asp:Label><br />
-      <asp:TextBox ID="TextBox1" type="email" runat="server" CssClass="form-control" placeholder="name@example.com"></asp:TextBox><br />
+      <asp:Label ID="lbl_correo_administrador" runat="server" Text="CORREO DEL ADMISTRADOR"></asp:Label><br />
+      <asp:TextBox ID="txt_correo_adminstrador" type="email" runat="server" CssClass="form-control" placeholder="name@example.com"></asp:TextBox><br />
         <!--contraseña del administrador-->
-      <asp:Label ID="Label2" runat="server" Text="CONTRASEÑA DEL ALUMNO:"></asp:Label><br />
-      <asp:TextBox ID="TextBox2"  TextMode="Password"  runat="server" CssClass="form-control"></asp:TextBox><br />
+      <asp:Label ID="lbl_contraseña" runat="server" Text="CONTRASEÑA DEL ADMINISTRADOR:"></asp:Label><br />
+      <asp:TextBox ID="txt_contraseña_administrador"  TextMode="Password"  runat="server" CssClass="form-control"></asp:TextBox><br />
 
 
     <asp:Button ID="Button1" runat="server" Text="INICIAR SESION" Cssclass="btn btn-success mx-auto" /><br />
@@ -92,6 +93,9 @@
         <!--finaliza el div cierre del primer row o fila-->
     </div>
 
+    <br />
+    <br />
+    <br />
 
 
 
