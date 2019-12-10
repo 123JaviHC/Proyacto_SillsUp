@@ -69,7 +69,7 @@
   <div class="card-body">
           <!--correo del administrador-->
       <asp:Label ID="lbl_correo_administrador" runat="server" Text="CORREO DEL ADMISTRADOR"></asp:Label><br />
-      <asp:TextBox ID="txt_correo_adminstrador" type="email" runat="server" CssClass="form-control rounded-pill" placeholder="name@example.com"></asp:TextBox>
+      <asp:TextBox ID="txt_correo_administrador" type="email" runat="server" CssClass="form-control rounded-pill" placeholder="name@example.com"></asp:TextBox>
     <asp:RegularExpressionValidator ID="rev_correo_administrador" runat="server" ErrorMessage="ingrese un email valido" ControlToValidate="txt_correo_administrador" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Blue"></asp:RegularExpressionValidator><br />
 
         <!--contraseña del administrador-->
