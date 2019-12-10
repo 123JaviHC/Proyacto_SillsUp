@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SkillsUp.GUI
+namespace SkillsUp.PaginaMaestra
 {
-    public partial class usuario_inicios_de_sesion : System.Web.UI.Page
+    public partial class DASHBOARD_alumno : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

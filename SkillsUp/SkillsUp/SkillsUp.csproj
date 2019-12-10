@@ -70,8 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GUI\Inicio.aspx" />
+    <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
     <Content Include="GUI\Usuario_estadias.aspx" />
-    <Content Include="GUI\usuario_inicios_de_sesion.aspx" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
     <Content Include="Recursos\css\bootstrap-reboot.css" />
@@ -105,6 +105,13 @@
     <Compile Include="GUI\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\INICIO_inicio_de_Sesion.aspx.cs">
+      <DependentUpon>INICIO_inicio_de_Sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\INICIO_inicio_de_Sesion.aspx.designer.cs">
+      <DependentUpon>INICIO_inicio_de_Sesion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Usuario_estadias.aspx.cs">
       <DependentUpon>Usuario_estadias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,12 +119,12 @@
     <Compile Include="GUI\Usuario_estadias.aspx.designer.cs">
       <DependentUpon>Usuario_estadias.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\usuario_inicios_de_sesion.aspx.cs">
-      <DependentUpon>usuario_inicios_de_sesion.aspx</DependentUpon>
+    <Compile Include="PaginaMaestra\DASHBOARD_alumno.Master.cs">
+      <DependentUpon>DASHBOARD_alumno.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GUI\usuario_inicios_de_sesion.aspx.designer.cs">
-      <DependentUpon>usuario_inicios_de_sesion.aspx</DependentUpon>
+    <Compile Include="PaginaMaestra\DASHBOARD_alumno.Master.designer.cs">
+      <DependentUpon>DASHBOARD_alumno.Master</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.cs">
       <DependentUpon>Dashboard_usuarios.Master</DependentUpon>
@@ -139,6 +146,7 @@
     <Content Include="PaginaMaestra\Vista_Principal.Master" />
     <Content Include="PaginaMaestra\Dashboard_usuarios.Master" />
     <None Include="packages.config" />
+    <Content Include="PaginaMaestra\DASHBOARD_alumno.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

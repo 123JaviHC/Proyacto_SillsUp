@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra/Vista_Principal.Master" AutoEventWireup="true" CodeBehind="usuario_inicios_de_sesion.aspx.cs" Inherits="SkillsUp.GUI.usuario_inicios_de_sesion" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra/Vista_Principal.Master" AutoEventWireup="true" CodeBehind="INICIO_inicio_de_Sesion.aspx.cs" Inherits="SkillsUp.GUI.INICIO_inicio_de_Sesion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <br />
+
+       <br />
     <br />
     <br />
     <br />
@@ -102,6 +103,10 @@
     <br />
     <br />
     <br />
+
+
+
+
 
 
 

@@ -11,7 +11,7 @@ namespace SkillsUp.GUI
 {
 
 
-    public partial class usuario_inicios_de_sesion
+    public partial class INICIO_inicio_de_Sesion
     {
 
         /// <summary>
