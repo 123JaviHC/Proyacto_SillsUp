@@ -98,6 +98,24 @@
     <Compile Include="GUI\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.cs">
+      <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.designer.cs">
+      <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_empresas.Master.cs">
+      <DependentUpon>DASHBOARD_empresas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_empresas.Master.designer.cs">
+      <DependentUpon>DASHBOARD_empresas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_usuario.Master.cs">
+      <DependentUpon>DASHBOARD_usuario.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_usuario.Master.designer.cs">
+      <DependentUpon>DASHBOARD_usuario.Master</DependentUpon>
+    </Compile>
     <Compile Include="PaginaMaestra\Vista_Principal.Master.cs">
       <DependentUpon>Vista_Principal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,6 +128,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="PaginaMaestra\Vista_Principal.Master" />
+    <Content Include="PaginaMaestra\DASHBOARD_administrador.Master" />
+    <Content Include="PaginaMaestra\DASHBOARD_usuario.Master" />
+    <Content Include="PaginaMaestra\DASHBOARD_empresas.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
