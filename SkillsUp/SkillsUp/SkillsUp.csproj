@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GUI\Inicio.aspx" />
+    <Content Include="GUI\Usuario_estadias.aspx" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
     <Content Include="Recursos\css\bootstrap-reboot.css" />
@@ -77,10 +78,13 @@
     <Content Include="Recursos\css\estilos_personalizados.css" />
     <Content Include="Recursos\css\ihover.css" />
     <Content Include="Recursos\css\ihover.min.css" />
+    <Content Include="Recursos\css\styles.css" />
+    <Content Include="Recursos\img\avatar_usuario.png" />
     <Content Include="Recursos\img\carousel_img1.png" />
     <Content Include="Recursos\img\imgUTM.png" />
     <Content Include="Recursos\img\img_bolsa_estadias.jpg" />
     <Content Include="Recursos\img\logo.png" />
+    <Content Include="Recursos\img\perfil-usuario-default.png" />
     <Content Include="Recursos\img\trabajo.jpg" />
     <Content Include="Recursos\img\utm.png" />
     <Content Include="Recursos\img\vervacantes.jpg" />
@@ -98,6 +102,20 @@
     <Compile Include="GUI\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Usuario_estadias.aspx.cs">
+      <DependentUpon>Usuario_estadias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Usuario_estadias.aspx.designer.cs">
+      <DependentUpon>Usuario_estadias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.cs">
+      <DependentUpon>Dashboard_usuarios.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.designer.cs">
+      <DependentUpon>Dashboard_usuarios.Master</DependentUpon>
+    </Compile>
     <Compile Include="PaginaMaestra\Vista_Principal.Master.cs">
       <DependentUpon>Vista_Principal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,6 +128,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="PaginaMaestra\Vista_Principal.Master" />
+    <Content Include="PaginaMaestra\Dashboard_usuarios.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
