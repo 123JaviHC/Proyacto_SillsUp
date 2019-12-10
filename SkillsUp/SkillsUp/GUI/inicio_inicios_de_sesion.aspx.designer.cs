@@ -33,6 +33,15 @@ namespace SkillsUp.GUI
         protected global::System.Web.UI.WebControls.TextBox txt_correo_empresa;
 
         /// <summary>
+        /// Control rev_correo_empresa.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_correo_empresa;
+
+        /// <summary>
         /// Control contraseña_empresa.
         /// </summary>
         /// <remarks>
@@ -78,13 +87,22 @@ namespace SkillsUp.GUI
         protected global::System.Web.UI.WebControls.TextBox txt_correo_alumno;
 
         /// <summary>
-        /// Control lbl_correo_alumno.
+        /// Control rev_correo_alumno.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_correo_alumno;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_correo_alumno;
+
+        /// <summary>
+        /// Control lbl_contraseña_alumno.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_contraseña_alumno;
 
         /// <summary>
         /// Control txt_contraseña_alumno.
@@ -121,6 +139,15 @@ namespace SkillsUp.GUI
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_correo_adminstrador;
+
+        /// <summary>
+        /// Control rev_correo_administrador.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_correo_administrador;
 
         /// <summary>
         /// Control lbl_contraseña.
