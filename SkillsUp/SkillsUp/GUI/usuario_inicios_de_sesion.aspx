@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra/Vista_Principal.Master" AutoEventWireup="true" CodeBehind="inicio_inicios_de_sesion.aspx.cs" Inherits="SkillsUp.GUI.inicio_inicios_de_sesion" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra/Vista_Principal.Master" AutoEventWireup="true" CodeBehind="usuario_inicios_de_sesion.aspx.cs" Inherits="SkillsUp.GUI.usuario_inicios_de_sesion" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <br />
+      <br />
     <br />
     <br />
     <br />
@@ -19,7 +19,7 @@
   <div class="card-body">
       <!--correo de la empresa-->
       <asp:Label ID="lbl_correo_empresa" runat="server" Text="CORREO DE LA EMPRESA:"></asp:Label><br />
-      <asp:TextBox ID="txt_correo_empresa"  runat="server" CssClass="form-control rounded-pill" TextMode="Email"></asp:TextBox>
+      <asp:TextBox ID="txt_correo_empresa" type="email" runat="server" CssClass="form-control rounded-pill" placeholder="name@example.com"></asp:TextBox>
       <asp:RegularExpressionValidator ID="rev_correo_empresa" runat="server" ErrorMessage="ingrese un email valido" ControlToValidate="txt_correo_empresa" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Blue"></asp:RegularExpressionValidator><br />
 
         <!--contraseña de la empresa-->
@@ -43,7 +43,7 @@
   <div class="card-body">
           <!--correo de la alumno-->
       <asp:Label ID="lbl_correo_usuario" runat="server" Text="CORREO DEL ALUMNO"></asp:Label><br />
-      <asp:TextBox ID="txt_correo_alumno"  runat="server" CssClass="form-control rounded-pill" TextMode="Email"></asp:TextBox>
+      <asp:TextBox ID="txt_correo_alumno" type="email" runat="server" CssClass="form-control rounded-pill" placeholder="name@example.com"></asp:TextBox>
       <asp:RegularExpressionValidator ID="rev_correo_alumno" runat="server" ErrorMessage="ingrese un email valido" ControlToValidate="txt_correo_alumno" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Blue"></asp:RegularExpressionValidator><br />
 
         <!--contraseña del alumno-->
@@ -69,7 +69,7 @@
   <div class="card-body">
           <!--correo del administrador-->
       <asp:Label ID="lbl_correo_administrador" runat="server" Text="CORREO DEL ADMISTRADOR"></asp:Label><br />
-      <asp:TextBox ID="txt_correo_adminstrador"  runat="server" CssClass="form-control rounded-pill" TextMode="Email"></asp:TextBox>
+      <asp:TextBox ID="txt_correo_adminstrador" type="email" runat="server" CssClass="form-control rounded-pill" placeholder="name@example.com"></asp:TextBox>
     <asp:RegularExpressionValidator ID="rev_correo_administrador" runat="server" ErrorMessage="ingrese un email valido" ControlToValidate="txt_correo_administrador" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Blue"></asp:RegularExpressionValidator><br />
 
         <!--contraseña del administrador-->
@@ -102,11 +102,6 @@
     <br />
     <br />
     <br />
-
-
-
-
-
 
 
 
