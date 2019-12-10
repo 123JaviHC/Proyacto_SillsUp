@@ -46,7 +46,38 @@
     height:300px;
 }
 
+.cabecera {
+    height: 60px;
+    background-color: #ffd800;
+}
+
+.tamcolmenu {
+    height:657px;
+    border-right: 1px solid #808080;
+}
+
 .menu-pegado{
+    position:fixed;
+    z-index:1000;
+    top:0;
+}
+
+
+.fondo-header-usuario {
+    background-color: #71b74a;
+    padding-bottom:10px;
+}
+
+.color-aside {
+    background-color: #a3a3a3;
+}
+
+.tm-img-user{
+    width:125px;
+    height:125px;
+}
+
+.abc {
     position:fixed;
     z-index:1000;
     top:0;
