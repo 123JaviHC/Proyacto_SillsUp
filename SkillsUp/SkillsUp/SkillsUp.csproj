@@ -1,5 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,12 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="GUI\Inicio.aspx" />
+    <Content Include="GUI\inicio_inicios_de_sesion.aspx" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
     <Content Include="Recursos\css\bootstrap-reboot.css" />
@@ -78,6 +78,8 @@
     <Content Include="Recursos\css\ihover.css" />
     <Content Include="Recursos\css\ihover.min.css" />
     <Content Include="Recursos\img\carousel_img1.png" />
+    <Content Include="Recursos\img\empresa.jpg" />
+    <Content Include="Recursos\img\estuduante.jpg" />
     <Content Include="Recursos\img\imgUTM.png" />
     <Content Include="Recursos\img\img_bolsa_estadias.jpg" />
     <Content Include="Recursos\img\logo.png" />
@@ -98,20 +100,30 @@
     <Compile Include="GUI\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\inicio_inicios_de_sesion.aspx.cs">
+      <DependentUpon>inicio_inicios_de_sesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\inicio_inicios_de_sesion.aspx.designer.cs">
+      <DependentUpon>inicio_inicios_de_sesion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.cs">
       <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.designer.cs">
       <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_empresas.Master.cs">
       <DependentUpon>DASHBOARD_empresas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_empresas.Master.designer.cs">
       <DependentUpon>DASHBOARD_empresas.Master</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_usuario.Master.cs">
       <DependentUpon>DASHBOARD_usuario.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PaginaMaestra\DASHBOARD_usuario.Master.designer.cs">
       <DependentUpon>DASHBOARD_usuario.Master</DependentUpon>
@@ -126,11 +138,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <Content Include="PaginaMaestra\Vista_Principal.Master" />
     <Content Include="PaginaMaestra\DASHBOARD_administrador.Master" />
     <Content Include="PaginaMaestra\DASHBOARD_usuario.Master" />
     <Content Include="PaginaMaestra\DASHBOARD_empresas.Master" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -141,6 +153,7 @@
   <ItemGroup>
     <Folder Include="BO\" />
     <Folder Include="DAO\" />
+    <Folder Include="Recursos\img\fotos_perfil\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -171,7 +184,7 @@
     <PropertyGroup>
       <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
