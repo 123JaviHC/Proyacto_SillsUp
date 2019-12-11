@@ -4,13 +4,5 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
     <br />
-    <br />
-    <br />
-
-
-
-
-
-
-
+    <%-- NO QUITAR ESTOS 2 BR--%>
 </asp:Content>

@@ -4,8 +4,8 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <link href="../Recursos/css/estilos_personalizados.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../Recursos/css/estilos_personalizados.css" rel="stylesheet" />
     <link href="../Recursos/css/bootstrap.css" rel="stylesheet" />
     <link href="../Recursos/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Recursos/css/ihover.css" rel="stylesheet" />
@@ -18,30 +18,48 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-               <header>
-            <div class="container-fluid">
-                <div class="row color_barra_usuarios">
-                    <div class=" col-md-10">
-                        <%-- espacio vacio --%>
-                    </div>
-                    <div class=" col-md-10">
-                        <a href="#inicio" class="letra-blanca decoracio-de-links">Inicio</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#trabajoyestadias" class="letra-blanca">Bolsa de trabajo y estadías</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <%--<a href="#estadias" class="letra-blanca">Bolsa de estadias</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp--%>
-                        <a href="#nosotros" class="letra-blanca">Nosotros</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#" class="letra-blanca">Iniciar sesión</a>
-                       <a><asp:Label ID="lbl_nombre_usuario" runat="server" Text="Label"></asp:Label></a>
-                       
-                         <a><asp:LinkButton ID="lbtn_cerrar_sesion" runat="server">SALIR</asp:LinkButton>    </a>
+        <div class="todo-menu">
+            <div class="menu-aside">
+                <h2>SkillsUp</h2>
 
-                    </div>
+                <%--IMAGEN DE PERFIL DEL ALUMNO -INICIO--%>
+                <center><asp:Image ID="Image1" runat="server" ImageUrl="~/Recursos/img/profile.png" CssClass="berde-perfil"/></center>
+                <br />
+                <%--IMAGEN DE PERFIL DEL ALUMNO -FIN--%>
+
+                <ul class="sin-linea-ul">
+                    <a href="#">
+                        <li class="sin-linea-li"><i class="fas fa-home"></i>Bolsa de trabajo</li>
+                    </a>
+                    <a href="#">
+                        <li class="sin-linea-li"><i class="fas fa-user"></i>Bolsa de estadías</li>
+                    </a>
+                    <a href="#">
+                        <li class="sin-linea-li"><i class="fas fa-address-card"></i>Información de estadías</li>
+                    </a>
+                    <a href="#">
+                        <li class="sin-linea-li"><i class="fas fa-project-diagram"></i>Perfil</li>
+                    </a>
+                    <%--<a href="#"><li><i class="fas fa-blog"></i>Blogs</li></a>
+                    <a href="#"><li><i class="fas fa-address-book"></i>Contact</li></a>
+                    <a href="#"><li><i class="fas fa-map-pin"></i>Map</li></a>--%>
+                </ul>
+
+                <div class="cerrar">
+                    <%--<a href="#"><i class="fab fa-facebook-f"></i></a>--%>
+                    <a href="#"><i class="fab fa-twitter"></i></a><%--PARA PONER EL ICONO DE CERRAR SESION--%>
+                    <%--<a href="#"><i class="fab fa-instagram"></i></a>--%>
                 </div>
             </div>
-        </header>
+            <div class="main_content">
 
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+                <div class="header">Aquí quiero que vaya la foto de perfil del alumno pegado al rincon derecho pero no pude alv justamente aqui -------------------------------------------------> <asp:Image ID="Image2" runat="server" ImageUrl="~/Recursos/img/icono-perfil.png" /></div>
+                <div class="info">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
         </div>
     </form>
 </body>
