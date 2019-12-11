@@ -21,7 +21,7 @@
         <div>
                <header>
             <div class="container-fluid">
-                <div class="row barra_usuarios">
+                <div class="row color_barra_usuarios">
                     <div class=" col-md-10">
                         <%-- espacio vacio --%>
                     </div>
