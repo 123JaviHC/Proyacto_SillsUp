@@ -5,6 +5,13 @@
     padding-bottom:20px;
 }
 
+.barra_usuarios {
+    /*background-color: #71b74a;*/ /*verde del logo de la escuela*/
+    background-color:#249AFC; /*azu pra resaltar el logo*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*.color-arriba-menu{
     background-color:#ff6a00;
     padding-top:20px;
