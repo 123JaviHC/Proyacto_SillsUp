@@ -33,22 +33,22 @@ namespace SkillsUp.PaginaMaestra
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lbl_nombre_usuario.
+        /// Control Image1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_nombre_usuario;
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Control lbtn_cerrar_sesion.
+        /// Control Image2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_cerrar_sesion;
+        protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
         /// Control ContentPlaceHolder1.
