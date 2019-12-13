@@ -73,6 +73,7 @@
     <Content Include="GUI\Inicio.aspx" />
     <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
     <Content Include="GUI\Usuario_estadias.aspx" />
+    <Content Include="Recursos\css\animate.css" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
     <Content Include="Recursos\css\bootstrap-reboot.css" />

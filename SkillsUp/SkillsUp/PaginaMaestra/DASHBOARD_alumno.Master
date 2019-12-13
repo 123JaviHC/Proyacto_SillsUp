@@ -12,6 +12,9 @@
     <link href="../Recursos/css/ihover.min.css" rel="stylesheet" />
     <script src="../Recursos/js/bootstrap.js"></script>
     <script src="../Recursos/js/bootstrap.min.js"></script>
+    <link href="../Recursos/css/animate.css" rel="stylesheet" />
+
+
     <title>DASHBOARD INICIO USUARIOS</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

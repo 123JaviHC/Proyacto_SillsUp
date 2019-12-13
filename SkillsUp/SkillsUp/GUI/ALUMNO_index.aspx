@@ -8,7 +8,7 @@
     <br />
 
 
-
+    <h1 class="animated infinite bounce delay-2s">BINEVENIDO A SKILLSUP</h1>
 
 
 
