@@ -8,24 +8,53 @@
     <br />
     <br />
     <div class="row">
+        
+      <h1 class="animated infinite pulse delay-1s letra-blanca mx-auto">BIENVENIDO A SkillsUp</h1><br />
+     <!--animamos la fecha-->
+    <h2 class="animated  fadeInRight delay-1s letra-blanca mx-auto">
+            <asp:Label ID="lbl_fecha" runat="server" ></asp:Label>
 
+    </h2>
     </div>
 
-
+    <!--segunda fila-->
     <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3"><!--para hacer espacio--></div>
         <div class="col-md-6">
-            <div class="card bg-light mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Light card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!--aca va el card-->
+          <div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="INICIO_inicio_de_Sesion.aspx">Disabled</a>
+      </li>
+    </ul>
   </div>
+  <div class="card-body">
+  
 </div>
+              </div>
 
 
-
+            <!--aca termina el card-->
         </div>
-        <div class="col-md-3"></div>
+       
+        <div class="col-md-3"><!--para hacer espacio--></div>
+
+
+
+
+
+
+
+
+
+        <!--termina la segunda fila-->
     </div>
 </asp:Content>
