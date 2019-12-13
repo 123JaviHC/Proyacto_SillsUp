@@ -71,7 +71,7 @@
   <ItemGroup>
     <Content Include="GUI\Inicio.aspx" />
     <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
-    <Content Include="GUI\Usuario_estadias.aspx" />
+    <Content Include="GUI\Usuario_home.aspx" />
     <Content Include="Recursos\css\animate.css" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
@@ -115,12 +115,12 @@
     <Compile Include="GUI\INICIO_inicio_de_Sesion.aspx.designer.cs">
       <DependentUpon>INICIO_inicio_de_Sesion.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Usuario_estadias.aspx.cs">
-      <DependentUpon>Usuario_estadias.aspx</DependentUpon>
+    <Compile Include="GUI\Usuario_home.aspx.cs">
+      <DependentUpon>Usuario_home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GUI\Usuario_estadias.aspx.designer.cs">
-      <DependentUpon>Usuario_estadias.aspx</DependentUpon>
+    <Compile Include="GUI\Usuario_home.aspx.designer.cs">
+      <DependentUpon>Usuario_home.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.cs">
       <DependentUpon>Dashboard_usuarios.Master</DependentUpon>

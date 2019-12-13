@@ -10,6 +10,7 @@
     <link href="../Recursos/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Recursos/css/estilos_personalizados.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link href="../Recursos/css/animate.css" rel="stylesheet" />
     <title>Ofertas de vacantes</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
