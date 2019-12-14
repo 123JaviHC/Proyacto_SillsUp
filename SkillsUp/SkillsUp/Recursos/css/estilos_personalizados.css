@@ -19,9 +19,25 @@
     padding-bottom:20px;
 }*/
 
+/*solo colores de letras*/
 .letra-blanca{
     color:#ffffff;
 }
+
+.letra-azul{/*esta letra es para el bienvenido de alumnos*/
+    color: #2465FC;
+    font-family: 'Cartoonist Kooky';
+}
+
+
+.letra-fecha{ /*esta letra es para el bienvenido de alumnos*/
+    color: #090d00;
+    font-family:Arial;
+}
+
+
+/*finaliza colores de letras*/
+
 
 .decoracio-de-links {
     text-decoration:none;    
