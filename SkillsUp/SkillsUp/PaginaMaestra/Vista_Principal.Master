@@ -32,10 +32,10 @@
                     </div>
                     <div class=" col-md-6">
                         <a href="#inicio" class="letra-blanca decoracio-de-links">Inicio</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#trabajoyestadias" class="letra-blanca">Bolsa de trabajo y estadías</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <%--<a href="#estadias" class="letra-blanca">Bolsa de estadias</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp--%>
-                        <a href="#nosotros" class="letra-blanca">Nosotros</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <a href="#" class="letra-blanca">Iniciar sesión</a>
+                        <%--<a href="#trabajoyestadias" class="letra-blanca">Bolsa de trabajo y estadías</a>--%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <%--<a href="#estadias" class="letra-blanca">Bolsa de estadias</a>--%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <%--<a href="#nosotros" class="letra-blanca">Nosotros</a>--%>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a href="#Iniciarsesion" class="letra-blanca">Iniciar sesión</a>
                     </div>
                 </div>
             </div>
