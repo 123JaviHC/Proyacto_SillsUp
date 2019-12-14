@@ -7,7 +7,7 @@
     <br />
     <br />
     <br />
-         <h1 class="animated infinite pulse delay-1s letra-azul mx-auto">BIENVENIDO A SkillsUp</h1><br />
+         <h1 class="animated infinite pulse delay-1s letra-bienvenido mx-auto">BIENVENIDO A SkillsUp</h1><br />
      <!--animamos la fecha-->
     <h2 class="animated  fadeInRight delay-1s  letra-fecha mx-auto">
             <asp:Label ID="lbl_fecha" runat="server" ></asp:Label>

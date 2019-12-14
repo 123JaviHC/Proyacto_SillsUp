@@ -24,7 +24,7 @@
     color:#ffffff;
 }
 
-.letra-azul{/*esta letra es para el bienvenido de alumnos*/
+.letra-bienvenido{/*esta letra es para el bienvenido de alumnos*/
     color: #2465FC;
     font-family: 'Cartoonist Kooky';
 }
@@ -34,6 +34,24 @@
     color: #090d00;
     font-family:Arial;
 }
+
+.titulos-card {
+    color: #090d00;
+    font-family: Franklin Gothic Heavy;
+}
+
+.letra-negra {
+    color: #090d00;
+    font-family: Arial Black;
+}
+
+
+.letra-azul {
+    color: #2465FC;
+    font-family: Arial Black;
+}
+
+
 
 
 /*finaliza colores de letras*/

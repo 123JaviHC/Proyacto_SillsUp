@@ -72,6 +72,7 @@
     <Content Include="GUI\Inicio.aspx" />
     <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
     <Content Include="GUI\Usuario_home.aspx" />
+    <Content Include="GUI\Usuario_perfil.aspx" />
     <Content Include="Recursos\css\animate.css" />
     <Content Include="Recursos\css\bootstrap-grid.css" />
     <Content Include="Recursos\css\bootstrap-grid.min.css" />
@@ -86,6 +87,7 @@
     <Content Include="Recursos\img\avatar_usuario.png" />
     <Content Include="Recursos\img\carousel_img1.png" />
     <Content Include="Recursos\img\icono-perfil.png" />
+    <Content Include="Recursos\img\iconos\editar.png" />
     <Content Include="Recursos\img\imgUTM.png" />
     <Content Include="Recursos\img\img_bolsa_estadias.jpg" />
     <Content Include="Recursos\img\logo.png" />
@@ -121,6 +123,13 @@
     </Compile>
     <Compile Include="GUI\Usuario_home.aspx.designer.cs">
       <DependentUpon>Usuario_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Usuario_perfil.aspx.cs">
+      <DependentUpon>Usuario_perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Usuario_perfil.aspx.designer.cs">
+      <DependentUpon>Usuario_perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.cs">
       <DependentUpon>Dashboard_usuarios.Master</DependentUpon>
