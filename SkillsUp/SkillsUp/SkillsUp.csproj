@@ -97,9 +97,6 @@
     <Content Include="Recursos\img\utm.png" />
     <Content Include="Recursos\img\vervacantes.jpg" />
     <Content Include="Recursos\js\bootstrap.bundle.js" />
-    <Content Include="Recursos\js\bootstrap.bundle.min.js" />
-    <Content Include="Recursos\js\bootstrap.js" />
-    <Content Include="Recursos\js\bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
