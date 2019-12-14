@@ -80,14 +80,22 @@
     <Content Include="Recursos\css\bootstrap-reboot.min.css" />
     <Content Include="Recursos\css\bootstrap.css" />
     <Content Include="Recursos\css\bootstrap.min.css" />
+    <Content Include="Recursos\css\business-casual.min.css" />
     <Content Include="Recursos\css\estilos_personalizados.css" />
     <Content Include="Recursos\css\ihover.css" />
     <Content Include="Recursos\css\ihover.min.css" />
+    <Content Include="Recursos\css\jquery-confirm.css" />
     <Content Include="Recursos\css\styles.css" />
     <Content Include="Recursos\img\avatar_usuario.png" />
     <Content Include="Recursos\img\carousel_img1.png" />
     <Content Include="Recursos\img\icono-perfil.png" />
+    <Content Include="Recursos\img\bolsaestadia.jpg" />
+    <Content Include="Recursos\img\bolsatrabajo.jpg" />
     <Content Include="Recursos\img\iconos\editar.png" />
+    <Content Include="Recursos\img\skills.png" />
+    <Content Include="Recursos\img\slide2.jpg" />
+    <Content Include="Recursos\img\slide3.jpg" />
+    <Content Include="Recursos\img\slide4.jpg" />
     <Content Include="Recursos\img\imgUTM.png" />
     <Content Include="Recursos\img\img_bolsa_estadias.jpg" />
     <Content Include="Recursos\img\logo.png" />
@@ -97,6 +105,7 @@
     <Content Include="Recursos\img\utm.png" />
     <Content Include="Recursos\img\vervacantes.jpg" />
     <Content Include="Recursos\js\bootstrap.bundle.js" />
+    <Content Include="Recursos\js\jquery.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

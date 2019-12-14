@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
     <%--INICIO DE CARRUSEL--%>
     <a name="inicio">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -11,25 +10,30 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" style="height: 100vh">
+                    <img src="../Recursos/img/skills.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" style="height: 100vh">
+                    <img src="../Recursos/img/slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" style="height: 100vh">
+                    <img src="../Recursos/img/slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" style="height: 100vh">
+                    <br />
                     <img src="../Recursos/img/imgUTM.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Recursos/img/carousel_img1.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../Recursos/img/carousel_img1.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Siguiente</span>
             </a>
         </div>
     </a>
@@ -43,7 +47,8 @@
     <br />
 
     <%--INICIO PART DE BOLSA DE TRABAJO--%>
-    <center><a name="trabajoyestadias">
+    <a name="trabajoyestadias">
+        <center>
         <h1>Trabajos y estadías</h1><br />
         <section class="feature_part">
             <div class="container">
@@ -84,13 +89,14 @@
                 </div>
             </div>
         </section>
-    </a>
         </center>
+    </a>
+
     <%--FIN DE PARTE BOLSA DE TRABAJO--%>
 
     <br />
     <br />
     <br />
     <br />
-          
+
 </asp:Content>

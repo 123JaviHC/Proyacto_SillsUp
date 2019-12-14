@@ -10,23 +10,23 @@
     <link href="../Recursos/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Recursos/css/ihover.css" rel="stylesheet" />
     <link href="../Recursos/css/ihover.min.css" rel="stylesheet" />
+    <link href="../Recursos/css/jquery-confirm.css" rel="stylesheet" />
+    <link href="../Recursos/css/business-casual.min.css" rel="stylesheet" />
     
-
+    <script src="../Recursos/js/jquery.min.js"></script>
+    <script src="../Recursos/js/bootstrap.bundle.js"></script>
+    
    
-    <link href="Recursos/css/jquery-confirm.css" rel="stylesheet" />
-    <link href="Recursos/css/business-casual.min.css" rel="stylesheet" />    
-    <script src="Recursos/js/jquery.min.js"></script>
-    <script src="Recursos/js/bootstrap.bundle.js"></script>
-
+    
     <title>Inicio</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body style="background:#fff">
     <form id="form1" runat="server">
         <header>
             <div class="container-fluid">
-                <div class="row color_fondo_barra_arriba">
+                <div class="row color_fondo_barra_arriba" style="position:fixed; z-index:1000; width:100%; top:0">
                     <div class=" col-md-6">
                         <%-- espacio vacio --%>
                     </div>
@@ -72,18 +72,14 @@
                         <%--solo es un espacio--%>
                     </div>
 
-                    <div class="col-md-8">
-                        <p>Josué Figueroa</p>
-                        <p>Rodrigo Hu</p>
-                        <p>Javier Herrera</p>
-                    </div>
+                    
 
                     <div class="col-md-2">
                         <%--solo es un espacio--%>
                     </div>
                 </div>
 
-                <center><p class="letra-blanca">SkillsUp</p></center>
+                
             </div>
         </footer>
     </form>
