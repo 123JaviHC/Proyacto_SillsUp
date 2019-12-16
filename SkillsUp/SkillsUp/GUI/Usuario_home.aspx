@@ -18,7 +18,9 @@
     <br />
     <%-- NO QUITAR ESTOS 2 BR--%>
     <br />
-    <h4>Ofertas recientes</h4>
+    <div class="alert alert-warning" role="alert" >
+                    Ofertas recientes
+                </div>
     <hr />
     <br />
     <%--Aqui irán los listview de los vacantes de trabajos o estadias--%>

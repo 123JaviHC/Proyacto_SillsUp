@@ -69,6 +69,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GUI\InformacionEstadia.aspx" />
     <Content Include="GUI\Inicio.aspx" />
     <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
     <Content Include="GUI\Usuario_home.aspx" />
@@ -110,6 +111,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\InformacionEstadia.aspx.cs">
+      <DependentUpon>InformacionEstadia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\InformacionEstadia.aspx.designer.cs">
+      <DependentUpon>InformacionEstadia.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
