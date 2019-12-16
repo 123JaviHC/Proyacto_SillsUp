@@ -81,6 +81,7 @@
     <Content Include="Recursos\css\bootstrap.css" />
     <Content Include="Recursos\css\bootstrap.min.css" />
     <Content Include="Recursos\css\business-casual.min.css" />
+    <Content Include="Recursos\css\estilos_menu_alumnos.css" />
     <Content Include="Recursos\css\estilos_personalizados.css" />
     <Content Include="Recursos\css\ihover.css" />
     <Content Include="Recursos\css\ihover.min.css" />

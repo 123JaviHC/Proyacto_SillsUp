@@ -1,6 +1,4 @@
-/*estilos del dash del alumno*/
-
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+﻿@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 * {
     margin: 0;
@@ -55,9 +53,9 @@ body {
                 background-color: #594f8d;
             }
 
-.wrapper .sidebar ul li:hover a {
-    color: #fff;
-}
+                .wrapper .sidebar ul li:hover a {
+                    color: #fff;
+                }
 
 .container-fluid .sidebar .social_media {
     position: absolute;
@@ -82,7 +80,7 @@ body {
 
 .container-fluid .main_content {
     width: 100%;
-    margin-left: 200px;
+    margin-left: 200px;    
 }
 
     .container-fluid .main_content .header {
@@ -92,7 +90,7 @@ body {
         border-bottom: 1px solid #e0e4e8;
         position: fixed;
         z-index: 1000;
-        width: 100%;
+        width:100%;
     }
 
     .container-fluid .main_content .info {
@@ -101,6 +99,6 @@ body {
         line-height: 25px;
     }
 
-        .container-fluid .main_content .info div {
-            margin-bottom: 20px;
-        }
+            .container-fluid .main_content .info div {
+                margin-bottom: 20px;
+            }

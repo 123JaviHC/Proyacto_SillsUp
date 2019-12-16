@@ -11,7 +11,8 @@ namespace SkillsUp.PaginaMaestra
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //mandamos la fecha a el label
+            lbl_fecha.Text = DateTime.Now.ToLongDateString();
         }
     }
 }
