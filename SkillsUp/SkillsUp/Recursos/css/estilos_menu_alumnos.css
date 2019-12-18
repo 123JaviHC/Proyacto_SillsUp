@@ -100,5 +100,26 @@ body {
     }
 
             .container-fluid .main_content .info div {
-                margin-bottom: 20px;
+                margin-bottom: 20px;                
             }
+
+.imagen-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+
+.imagen-perfil-editar {
+    
+    width: 200px;
+    height: 200px;
+    margin-left:40px;
+    margin-top:15px;
+    /*border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;*/
+}

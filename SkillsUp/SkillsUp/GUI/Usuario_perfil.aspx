@@ -46,16 +46,18 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../Recursos/img/bolsaestadia.jpg" alt="Card image cap">
+                    <img class="card-img-top imagen-perfil-editar" src="../Recursos/img/rm-perfil.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <asp:Button ID="Button1" runat="server" Text="Editar Foto" CssClass="btn btn-success" /><br />
-                        <br />
-                        <asp:Button ID="Button2" runat="server" Text="Eliminar Foto" CssClass="btn btn-danger" />
+                        <center>
+                            <asp:Button ID="Button1" runat="server" Text="Editar Foto" CssClass="btn btn-success" /><%--<i class="fas fa-camera"></i>--%><br />
+                            <br />
+                            <asp:Button ID="Button2" runat="server" Text="Eliminar Foto" CssClass="btn btn-danger" /><%--<i class="fas fa-trash-alt"></i>--%>
+                        </center>
                     </div>
                 </div>
             </div>
             <div class="col-md-2">
-                </div>
+            </div>
             <div class="col-md-6">
                 <div class="alert alert-warning" role="alert" style="width: 500px">
                     Edita tus datos
@@ -70,7 +72,7 @@
                 <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control" TextMode="Password" Width="500px"></asp:TextBox><br />
                 <br />
                 <center>
-            <asp:Button ID="Button3" runat="server" Text="Guardar datos" CssClass="btn btn-success" />
+                    <asp:Button ID="Button3" runat="server" Text="Guardar datos" CssClass="btn btn-success" />
                 </center>
             </div>
         </div>

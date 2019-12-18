@@ -72,6 +72,7 @@
     <Content Include="GUI\InformacionEstadia.aspx" />
     <Content Include="GUI\Inicio.aspx" />
     <Content Include="GUI\INICIO_inicio_de_Sesion.aspx" />
+    <Content Include="GUI\Prueba_admin.aspx" />
     <Content Include="GUI\Usuario_home.aspx" />
     <Content Include="GUI\Usuario_perfil.aspx" />
     <Content Include="Recursos\css\animate.css" />
@@ -93,7 +94,12 @@
     <Content Include="Recursos\img\icono-perfil.png" />
     <Content Include="Recursos\img\bolsaestadia.jpg" />
     <Content Include="Recursos\img\bolsatrabajo.jpg" />
+    <Content Include="Recursos\img\iconos\docexcel.png" />
+    <Content Include="Recursos\img\iconos\docpdf.png" />
+    <Content Include="Recursos\img\iconos\docword.png" />
     <Content Include="Recursos\img\iconos\editar.png" />
+    <Content Include="Recursos\img\iconos\save.png" />
+    <Content Include="Recursos\img\rm-perfil.jpg" />
     <Content Include="Recursos\img\skills.png" />
     <Content Include="Recursos\img\slide2.jpg" />
     <Content Include="Recursos\img\slide3.jpg" />
@@ -132,6 +138,13 @@
     <Compile Include="GUI\INICIO_inicio_de_Sesion.aspx.designer.cs">
       <DependentUpon>INICIO_inicio_de_Sesion.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Prueba_admin.aspx.cs">
+      <DependentUpon>Prueba_admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Prueba_admin.aspx.designer.cs">
+      <DependentUpon>Prueba_admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Usuario_home.aspx.cs">
       <DependentUpon>Usuario_home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,6 +158,13 @@
     </Compile>
     <Compile Include="GUI\Usuario_perfil.aspx.designer.cs">
       <DependentUpon>Usuario_perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.cs">
+      <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginaMaestra\DASHBOARD_administrador.Master.designer.cs">
+      <DependentUpon>DASHBOARD_administrador.Master</DependentUpon>
     </Compile>
     <Compile Include="PaginaMaestra\Dashboard_usuarios.Master.cs">
       <DependentUpon>Dashboard_usuarios.Master</DependentUpon>
@@ -166,6 +186,10 @@
     <Content Include="PaginaMaestra\Vista_Principal.Master" />
     <Content Include="PaginaMaestra\Dashboard_usuarios.Master" />
     <None Include="packages.config" />
+    <Content Include="Recursos\archivos\Políticas de estadía 2019.pdf" />
+    <Content Include="Recursos\archivos\Formato de Estadías.xlsx" />
+    <Content Include="Recursos\archivos\Información estadía - alumnos.pdf" />
+    <Content Include="PaginaMaestra\DASHBOARD_administrador.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -5,14 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SkillsUp.PaginaMaestra
+namespace SkillsUp.GUI
 {
-    public partial class DASHBOARD_administrador : System.Web.UI.MasterPage
+    public partial class Prueba_admin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //mandamos la fecha a el label
-            lbl_fecha.Text = DateTime.Now.ToLongDateString();
+
         }
     }
 }
